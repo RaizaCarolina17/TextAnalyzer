@@ -1,44 +1,39 @@
 <!DOCTYPE html>
+<html>
 <br>
-<body>
+<br>
 <head>
   <meta charset="utf-8">
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-  
+<body>
   
   <header>
     <h1>Text Analyzer</h1>
-  
   </header>
 
   <h3>Ingresa el texto que deseas analizar:</h3>
 
-<form action="#" method="post">
-  <textarea name="user-input" rows="10" cols="50" ></textarea>
-</form>
-
+<main>
+  <textarea name="user-input" value="user-input" rows="10" cols="50" ></textarea>
 
   <button id="reset-button">Limpiar Texto</button>
 
-
-<section>
+  <br>
   <ul>
-    <li class="word-count" data-testid="word-count">Palabras:</li>
-    <li class="character-count" data-testid="character-count">Caracteres:</li>
-    <li class="character-no-spaces-count" data-testid="character-no-spaces-count">Caracteres sin espacios:</li>
-    <li class="number-count" data-testid="number-count">Números:</li>
-    <li class="number-sum" data-testid="number-sum">Suma de Números:</li>
-    <li class="word-length-average" data-testid="word-length-average">Longitud de palabras:</li>
+    <li class="listado" data-testid="word-count">Palabras: 0</li>
+    <li class="listado" data-testid="character-count">Caracteres: 0</li>
+    <li class="listado" data-testid="character-no-spaces-count">Caracteres sin espacios: 0</li>
+    <li class="listado" data-testid="number-count">Números: 0</li>
+    <li class="listado" data-testid="number-sum">Suma de Números: 0</li>
+    <li class="listado" data-testid="word-length-average">Longitud de palabras: 0.00</li>
   </ul>
-</section>
-
-
-
-  <footer>
+</main>
+  <br>
+<footer>
     <p>Desarrollado por: Raiza Carolina Gatica</p>
-  </footer>
+</footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>

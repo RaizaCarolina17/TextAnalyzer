@@ -20,7 +20,7 @@
     "deploy": "gh-pages -d src"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.2",
+    "@babel/core": "^7.23.7",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "@playwright/test": "^1.33.0",
     "acorn": "^8.8.2",

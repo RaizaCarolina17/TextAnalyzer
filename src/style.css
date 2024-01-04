@@ -8,23 +8,26 @@ header {
  text-decoration: underline overline;
  color: palevioletred;
  font-style: italic;
- font-size: 30px;
+ font-size: 40px;
  text-align: center;
 }
 
 footer {
-    max-width: 1200px;
-    margin: 80px;
+    max-width: auto;
+    align-items: center;
+    margin: 10px;
     padding: 10px;
     background-color: palevioletred;
-    font-family: sans-serif;
-    font-style: oblique;
-    font-weight: bold;
-    text-align: center;
+    
 }
 
 p{
     background-color: palevioletred;
+    font-family: sans-serif;
+    font-size: x-small;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
 }
 
 h3 {
@@ -36,15 +39,19 @@ h3 {
 }
 
 ul {
+    align-items: center;
     list-style: none;
-    padding: 0;
+    margin: 30px;
+    padding: 5px;
 
 }
 
 li {
     text-align: center;
+    font-size: small;
     font-family: 'Courier New', Courier, monospace;
     font-style: bold;
+    
 }
 
 textarea[name="user-input"] {
@@ -62,24 +69,26 @@ textarea[name="user-input"] {
 #reset-button {
     display: flex;
     font-family: sans-serif;
-    background-color: palevioletred;
+    background-color:palevioletred;
     margin: 20px;
     margin-left: 550px;
-    padding: 20px;
-    border-radius: 4px;
+    padding: 10px;
+    border-radius: 5px;
     border-color: black;
     text-align: center;
     cursor: pointer;
 }
 
 
-.word-count, .character-count, .character-no-spaces-count, .number-count, .number-sum, .word-length-average {
+.listado {
     display: inline-block;
     background-color: #E4E4E4;
     border: solid black;
     border-radius: 4px;
     box-sizing: border-box;
     margin-left: 50px;
+    padding: 5px;
+    align-items: center;
 }
 
 
