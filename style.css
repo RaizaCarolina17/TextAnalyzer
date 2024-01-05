@@ -1,0 +1,94 @@
+*{
+    background-color: white;
+    margin-top: 0%;
+}
+
+header {
+ font-family: sans-serif;
+ text-decoration: underline overline;
+ color: palevioletred;
+ font-style: italic;
+ font-size: 40px;
+ text-align: center;
+}
+
+footer {
+    max-width: auto;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: palevioletred;
+    
+}
+
+p{
+    background-color: palevioletred;
+    font-family: sans-serif;
+    font-size: x-small;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: bold;
+
+}
+
+ul {
+    align-items: center;
+    list-style: none;
+    margin: 30px;
+    padding: 5px;
+
+}
+
+li {
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    
+}
+
+textarea[name="user-input"] {
+    display: block;
+    margin: auto;
+    width: 50%; 
+    padding: 10px;
+    background-color: white; 
+    border-radius: 4px;
+    border: solid;
+    text-align:justify;
+
+}
+
+#reset-button {
+    display: flex;
+    font-family: sans-serif;
+    background-color:palevioletred;
+    margin: 20px;
+    margin-left: 550px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.listado {
+    display: inline-block;
+    background-color: #E4E4E4;
+    border: solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    padding: 5px;
+    align-items: center;
+}
+
+
