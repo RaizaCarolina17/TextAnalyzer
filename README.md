@@ -56,12 +56,12 @@ escribir un nuevo texto.
    y permite ingresar otro texto.
 
 
-## 4. Link
+## 3. Link
 
 Link del proyecto es:   https://raizacarolina17.github.io/TextAnalyzer/
 
 
-### Autor
+## 4. Autor
 
 Raiza Gatica 
 
