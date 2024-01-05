@@ -58,7 +58,7 @@ escribir un nuevo texto.
 
 ## 4. Link
 
-Link del proyecto es: 
+Link del proyecto es:   https://raizacarolina17.github.io/TextAnalyzer/
 
 
 ### Autor
