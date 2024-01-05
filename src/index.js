@@ -23,7 +23,7 @@ cajaTexto.addEventListener('input', function(){
 });
 
 button.addEventListener("click",function(){
-  cajaTexto.value=" ";
+  cajaTexto.value="";
   wordCount.innerHTML="Palabras: 0";
   charCount.innerHTML="Caracteres: 0";
   noSpace.innerHTML="Caracteres sin espacio: 0";
